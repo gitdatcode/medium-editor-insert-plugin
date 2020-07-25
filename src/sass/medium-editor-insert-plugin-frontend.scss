@@ -91,7 +91,7 @@
 }
 
 .mediumInsert.small {
-    @extend .medium-insert-images.medium-insert-images-left;
+    @extend .medium-insert-images, .medium-insert-images-left;
 }
 
 .mediumInsert-embeds {
